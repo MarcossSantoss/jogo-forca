@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="utf-8">
+        <title>Jogo da Forca</title>
+        <link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+        <script type="text/javascript" src="java/script.js"></script>
+    </head>
+    <body onload="cria()">
+        <div id="jogo">
+            <p id="ctitulo">JOGO DA VELHA</p>
+            <div id="titulo">
+         <div id="tabeladiv">
+             <table border="0" id="dados" align="center">
+                 <tr>
+                    <td id="tabAcertos">
+                        <div id="acertos">ACERTOS: 0 </div><br>
+                        <div id="palcerta">PALAVRAS CERTAS: 0<br>
+                                           PALAVRAS ERRADAS : 0 </div> 
+                    </td>
+                    <div id="forca">
+                        <img src="images/forca1.png" id="imagens" />
+                    </div>
+                 </tr>
+             </table>
+             <hr>
+             <table  border="0" id="palavra" align="center">
+                <tr>
+                    <td>
+                        <div id="tema">TEMA: FRUTAZ</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="tentativa">
+                            <form id="tenta"></form>
+                        </div>
+                    </td>
+                </tr>
+                 </table>
+                 <hr>
+                 <table border="0" id="teclas" align="center">
+                     <tr>
+                     <td>
+                         <div id="letras">
+                             <form id="teclado1"></form><br>
+                             <form id="teclado2"></form><br>
+                             <form id="teclado3"></form><br>
+                    </td>
+                    </tr>
+                </table>
+         </div>
+        </div>
+</body>
+</html>

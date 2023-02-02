@@ -1,0 +1,31 @@
+body{
+background-color: #6e919c;
+}
+
+#ctitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight:bold;
+    text-align: center;
+}
+
+#titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight:bold;
+}
+
+.teclado{
+    border: 1px;
+    font-family: Sans-serif;
+    font-weight:bold;
+    margin: 0 2px;
+    background-color: #fdfdfd; 
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+}
